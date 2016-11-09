@@ -7,10 +7,10 @@
     <a href="/" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <!-- <span class="logo-mini"><b>A</b>LT</span> -->
-      <span class="logo-mini"><img src="/resources/dist/img/logo/logo-mini.png"/></span>
+      <span class="logo-mini"><img src="/resources/plugins/dist/img/logo/logo-mini.png"/></span>
       <!-- logo for regular state and mobile devices -->
       <!-- <span class="logo-lg"><b>Admin</b>LTE</span> -->
-      <span class="logo-lg"><img src="/resources/dist/img/logo/logo.png"/></span>
+      <span class="logo-lg"><img src="/resources/plugins/dist/img/logo/logo.png"/></span>
     </a>
 
     <!-- Header Navbar -->
@@ -38,7 +38,7 @@
                     <a href="#">
                       <div class="pull-left">
                         <!-- User Image -->
-                        <img src="/resources/dist/img/default/user-male.png" class="img-circle" alt="User Image">
+                        <img src="/resources/plugins/dist/img/default/user-male.png" class="img-circle" alt="User Image">
                       </div>
                       <!-- Message title and timestamp -->
                       <h4>
@@ -122,14 +122,14 @@
             <!-- Menu Toggle Button -->
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <!-- The user image in the navbar-->
-              <img src="/resources/dist/img/default/user-male.png" class="user-image" alt="User Image">
+              <img src="/resources/plugins/dist/img/default/user-male.png" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
               <span class="hidden-xs">홍길동</span>
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
               <li class="user-header">
-                <img src="/resources/dist/img/default/user-male.png" class="img-circle" alt="User Image">
+                <img src="/resources/plugins/dist/img/default/user-male.png" class="img-circle" alt="User Image">
 
                 <p>
                   홍길동

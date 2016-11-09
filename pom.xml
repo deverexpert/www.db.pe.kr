@@ -130,7 +130,45 @@
 			<scope>test</scope>
 		</dependency>        
 	</dependencies>
+	
+	<profiles>
+		<profile>
+			<id>local</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<resources>resources</resources>
+			</properties>
+		</profile>
+		<profile>
+			<id>real</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<resources>resources-real</resources>
+			</properties>
+		</profile>
+	</profiles>	
+	
     <build>
+    
+		<resources>
+			<resource>
+				<directory>${project.basedir}/src/main/java</directory>
+				<includes>
+					<include>**/*Mapper.xml</include>
+				</includes>
+			</resource>
+			<resource>
+				<directory>${project.basedir}/src/main/resources</directory>
+			</resource>
+			<resource>
+				<directory>${project.basedir}/src/main/${resources}</directory>
+			</resource>
+		</resources>
+    
         <plugins>
             <plugin>
                 <artifactId>maven-eclipse-plugin</artifactId>
@@ -153,7 +191,7 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-                    <compilerArgument>-Xlint:all</compilerArgument>
+                    <!-- compilerArgument>-Xlint:all</compilerArgument-->
                     <showWarnings>true</showWarnings>
                     <showDeprecation>true</showDeprecation>
                 </configuration>

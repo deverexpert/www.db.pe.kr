@@ -30,7 +30,7 @@
               <span class="label label-success">4</span>
             </a>
             <ul class="dropdown-menu">
-              <li class="header">You have 4 messages</li>
+              <li class="header">4개의 메세지가 있습니다.</li>
               <li>
                 <!-- inner menu: contains the messages -->
                 <ul class="menu">
@@ -43,7 +43,7 @@
                       <!-- Message title and timestamp -->
                       <h4>
                         Support Team
-                        <small><i class="fa fa-clock-o"></i> 5 mins</small>
+                        <small><i class="fa fa-clock-o"></i> 5 분전</small>
                       </h4>
                       <!-- The message -->
                       <p>Why not buy a new awesome theme?</p>
@@ -53,7 +53,7 @@
                 </ul>
                 <!-- /.menu -->
               </li>
-              <li class="footer"><a href="#">See All Messages</a></li>
+              <li class="footer"><a href="#">메세지 더 보기</a></li>
             </ul>
           </li>
           <!-- /.messages-menu -->
@@ -66,7 +66,7 @@
               <span class="label label-warning">10</span>
             </a>
             <ul class="dropdown-menu">
-              <li class="header">You have 10 notifications</li>
+              <li class="header">10개의 알림이 있습니다.</li>
               <li>
                 <!-- Inner Menu: contains the notifications -->
                 <ul class="menu">
@@ -78,7 +78,7 @@
                   <!-- end notification -->
                 </ul>
               </li>
-              <li class="footer"><a href="#">View all</a></li>
+              <li class="footer"><a href="#">알림 더 보기</a></li>
             </ul>
           </li>
           <!-- Tasks Menu -->
@@ -89,7 +89,7 @@
               <span class="label label-danger">9</span>
             </a>
             <ul class="dropdown-menu">
-              <li class="header">You have 9 tasks</li>
+              <li class="header">9개의 할일이 있습니다.</li>
               <li>
                 <!-- Inner menu: contains the tasks -->
                 <ul class="menu">
@@ -113,7 +113,7 @@
                 </ul>
               </li>
               <li class="footer">
-                <a href="#">View all tasks</a>
+                <a href="#">할일 더 보기</a>
               </li>
             </ul>
           </li>
@@ -124,7 +124,7 @@
               <!-- The user image in the navbar-->
               <img src="/resources/dist/img/default/user-male.png" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
-              <span class="hidden-xs">Alexander Pierce</span>
+              <span class="hidden-xs">홍길동</span>
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
@@ -132,7 +132,7 @@
                 <img src="/resources/dist/img/default/user-male.png" class="img-circle" alt="User Image">
 
                 <p>
-                  Alexander Pierce - Web Developer
+                  홍길동
                   <small>Member since Nov. 2012</small>
                 </p>
               </li>

@@ -18,6 +18,7 @@
 	<interceptors>
 		<interceptor>
 			<mapping path="/**"/>
+			<exclude-mapping path="/resources/**"/>
 			<beans:bean class="kr.pe.db.common.interceptor.MVCProcessedInterceptor"/>
 		</interceptor>
 	</interceptors>
